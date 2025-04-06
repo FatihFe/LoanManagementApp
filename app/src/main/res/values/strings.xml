@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LoanManagementApp</string>
+
+    // Screens
+    <string name="home_screen_title">Loan Management</string>
+
+    // Home Screen
+    <string name="home_screen_username">User Name:</string>
+    <string name="home_screen_loan_status">Status:</string>
+    <string name="home_screen_loan_principal">Principal:</string>
+    <string name="home_screen_loan_interest_rate">Interest Rate:</string>
+    <string name="home_screen_loan_interest_amount">Interest Amount:</string>
+    <string name="home_screen_loan_total_amount">Total Amount:</string>
+
+    // Login Screen
+    <string name="login_screen_username_title">Username</string>
+    <string name="login_screen_username_placeholder">Please enter your username</string>
+    <string name="login_screen_password_title">Password</string>
+    <string name="login_screen_password_placeholder">Please enter your password</string>
+    <string name="login_screen_login_button">Login</string>
+    <string name="login_screen_login_title">Loan Management</string>
+
+    // Components
+    <string name="custom_text_field_empty_error">This place cannot be empty</string>
+    <string name="custom_top_app_bar_bottom_sheet_title">Are you sure you want to logout?</string>
+    <string name="custom_top_app_bar_bottom_sheet_approved_button">Yes</string>
+    <string name="custom_top_app_bar_bottom_sheet_unapproved_button">No</string>
+</resources>
