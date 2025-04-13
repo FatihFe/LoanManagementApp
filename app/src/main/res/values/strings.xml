@@ -5,7 +5,7 @@
     <string name="home_screen_title">Loan Management</string>
 
     // Home Screen
-    <string name="home_screen_username">User Name:</string>
+    <string name="home_screen_email">E-MAIL:</string>
     <string name="home_screen_loan_status">Status:</string>
     <string name="home_screen_loan_principal">Principal:</string>
     <string name="home_screen_loan_interest_rate">Interest Rate:</string>
@@ -13,10 +13,12 @@
     <string name="home_screen_loan_total_amount">Total Amount:</string>
 
     // Login Screen
-    <string name="login_screen_username_title">Username</string>
-    <string name="login_screen_username_placeholder">Please enter your username</string>
+    <string name="login_screen_email_title">Email</string>
+    <string name="login_screen_email_placeholder">Please enter your email</string>
+    <string name="login_screen_email_error">Invalid email format</string>
     <string name="login_screen_password_title">Password</string>
     <string name="login_screen_password_placeholder">Please enter your password</string>
+    <string name="login_screen_password_error">Check min 6 characters, uppercase and lowercase letter.</string>
     <string name="login_screen_login_button">Login</string>
     <string name="login_screen_login_title">Loan Management</string>
 

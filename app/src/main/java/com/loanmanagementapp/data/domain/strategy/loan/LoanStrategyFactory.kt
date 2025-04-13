@@ -1,4 +1,4 @@
-package com.loanmanagementapp.data.domain.strategy
+package com.loanmanagementapp.data.domain.strategy.loan
 
 import com.loanmanagementapp.data.domain.model.Loan
 import com.loanmanagementapp.data.domain.model.LoanType

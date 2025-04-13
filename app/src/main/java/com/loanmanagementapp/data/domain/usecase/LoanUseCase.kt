@@ -2,7 +2,7 @@ package com.loanmanagementapp.data.domain.usecase
 
 import android.content.Context
 import com.loanmanagementapp.data.domain.model.Loan
-import com.loanmanagementapp.data.domain.strategy.LoanStrategyFactory
+import com.loanmanagementapp.data.domain.strategy.loan.LoanStrategyFactory
 import com.loanmanagementapp.data.repository.LoanRepository
 import javax.inject.Inject
 

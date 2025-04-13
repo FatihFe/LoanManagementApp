@@ -1,6 +1,6 @@
 package com.loanmanagementapp.di
 
-import com.loanmanagementapp.data.domain.strategy.LoanStrategyFactory
+import com.loanmanagementapp.data.domain.strategy.loan.LoanStrategyFactory
 import com.loanmanagementapp.data.repository.LoanRepository
 import com.loanmanagementapp.data.repository.LoanRepositoryImpl
 import com.loanmanagementapp.data.service.LoanService
