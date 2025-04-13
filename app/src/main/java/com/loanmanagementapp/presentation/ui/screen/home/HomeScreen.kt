@@ -34,7 +34,7 @@ fun HomeScreen(viewModel: HomeViewModel = hiltViewModel()) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Row {
-            Text(text = stringResource(R.string.home_screen_username), style = bodyLargeBold)
+            Text(text = stringResource(R.string.home_screen_email), style = bodyLargeBold)
             Spacer(modifier = Modifier.width(4.dp))
             Text(text = sessionManager.getUsername().orEmpty(), style = bodyLargeBold)
         }

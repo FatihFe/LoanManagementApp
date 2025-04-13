@@ -2,11 +2,11 @@ package com.loanmanagementapp.strategy
 
 import com.loanmanagementapp.data.domain.model.Loan
 import com.loanmanagementapp.data.domain.model.LoanType
-import com.loanmanagementapp.data.domain.strategy.CarLoanStrategy
-import com.loanmanagementapp.data.domain.strategy.DefaultLoanStrategy
-import com.loanmanagementapp.data.domain.strategy.LoanStrategyFactory
-import com.loanmanagementapp.data.domain.strategy.MortgageLoanStrategy
-import com.loanmanagementapp.data.domain.strategy.PersonalLoanStrategy
+import com.loanmanagementapp.data.domain.strategy.loan.CarLoanStrategy
+import com.loanmanagementapp.data.domain.strategy.loan.DefaultLoanStrategy
+import com.loanmanagementapp.data.domain.strategy.loan.LoanStrategyFactory
+import com.loanmanagementapp.data.domain.strategy.loan.MortgageLoanStrategy
+import com.loanmanagementapp.data.domain.strategy.loan.PersonalLoanStrategy
 import org.junit.Test
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.mock

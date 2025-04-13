@@ -3,9 +3,9 @@ package com.loanmanagementapp.usecase
 import android.content.Context
 import com.loanmanagementapp.data.domain.model.Loan
 import com.loanmanagementapp.data.domain.model.LoanStatus
-import com.loanmanagementapp.data.domain.strategy.CarLoanStrategy
-import com.loanmanagementapp.data.domain.strategy.LoanStrategyFactory
-import com.loanmanagementapp.data.domain.strategy.PersonalLoanStrategy
+import com.loanmanagementapp.data.domain.strategy.loan.CarLoanStrategy
+import com.loanmanagementapp.data.domain.strategy.loan.LoanStrategyFactory
+import com.loanmanagementapp.data.domain.strategy.loan.PersonalLoanStrategy
 import com.loanmanagementapp.data.domain.usecase.UpdateLoansUseCase
 import com.loanmanagementapp.data.repository.LoanRepository
 import kotlinx.coroutines.runBlocking
